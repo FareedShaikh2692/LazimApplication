@@ -64,3 +64,44 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+Here are the steps you can write in your README file to set up your Laravel project as per your requirements:
+
+### Setting up "Lazim Application" Laravel Project
+
+1. **Install Dependencies**
+   - Run `composer install` to install PHP dependencies.
+   - Run `npm install` to install JavaScript dependencies.
+
+2. **Configure Environment**
+   -   `.env` configure the database connection details.
+
+3. **Database Migration**
+   - Run `php artisan migrate` to run database migrations.
+
+4. **Install Bootstrap (Optional)**
+   - Bootstrap, run `npm install bootstrap` and configure as needed.
+
+5. **Install Font Awesome (Optional)**
+   -  Font Awesome, run `npm install @fortawesome/fontawesome-free` and configure.
+
+6. **RESTful API Validation**
+   - Implement RESTful API validation for endpoints
+
+7. **Basic Authentication**
+   - Implement basic authentication for securing API endpoints.
+
+8. **Create Task Model and Migration**
+    - Generate Task model and migration using `php artisan make:model Task -m`.
+
+9. **TaskController with Store Method**
+    - Create TaskController with a Store method for CRUD operations on tasks.
+
+10. **Define API Routes**
+    - Define API  endpoints:
+
+11. **Numeric Password Validation in Form**
+    - Implement numeric password validation .
+
+12. **Testing with Postman**
+    - Test all API endpoints using Postman 
